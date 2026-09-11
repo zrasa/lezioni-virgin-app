@@ -51,6 +51,11 @@ tipi_lezione = {
 # 6 = domenica
 
 calendario_standard = [
+     {
+        "giorno_settimana": 0,
+        "ora": "20:30",
+        "lezione": "YogaStr"
+    },
     {
         "giorno_settimana": 2,
         "ora": "14:00",
@@ -65,6 +70,11 @@ calendario_standard = [
         "giorno_settimana": 2,
         "ora": "18:30",
         "lezione": "YogaStr"
+    },
+    {
+        "giorno_settimana": 2,
+        "ora": "19:45",
+        "lezione": "RefAtl"
     },
     {
         "giorno_settimana": 3,
