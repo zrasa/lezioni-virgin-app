@@ -46,14 +46,20 @@ if "anno" not in st.session_state:
 if "mese_nome" not in st.session_state:
     st.session_state.mese_nome = None
 
-
 # ============================================================
 # SCELTA MESE E ANNO
 # ============================================================
 
+oggi = date.today()
+
+mese_corrente = oggi.month
+anno_corrente = oggi.year
+
+
 mese_nome = st.selectbox(
     "Seleziona il mese",
-    list(mesi.keys())
+    list(mesi.keys()),
+    index=mese_corrente - 1
 )
 
 mese = mesi[mese_nome]
@@ -62,7 +68,7 @@ anno = st.number_input(
     "Anno",
     min_value=2025,
     max_value=2035,
-    value=2026,
+    value=anno_corrente,
     step=1
 )
 
@@ -213,7 +219,7 @@ if st.session_state.lezioni_mese:
 
         st.rerun()
 
-            # ========================================================
+    # ========================================================
     # LEZIONI NON FATTE
     # ========================================================
 
