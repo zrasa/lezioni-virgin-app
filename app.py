@@ -374,7 +374,7 @@ if st.session_state.lezioni_mese:
     ).encode("utf-8-sig")
 
     nome_file = (
-        f"Lezioni_Virgin_"
+        f"Lezioni_Report_"
         f"{st.session_state.mese_nome}_"
         f"{st.session_state.anno}.csv"
     )
