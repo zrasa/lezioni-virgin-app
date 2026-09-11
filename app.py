@@ -6,7 +6,7 @@ import calendar
 from LezioniVirgin import tipi_lezione, calendario_standard
 
 
-st.title("Gestione Lezioni Virgin")
+st.title("Gestione Lezioni")
 st.write("Calendario e conteggio delle mie lezioni")
 
 
