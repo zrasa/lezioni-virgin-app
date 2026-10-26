@@ -19,6 +19,10 @@ tipi_lezione = {
         "descrizione": "Mat Pilates Align",
         "durata": 45
     },
+        "Post": {
+        "descrizione": "Postural",
+        "durata": 45
+    },
     "YogaStr": {
         "descrizione": "Yoga Strength",
         "durata": 60
